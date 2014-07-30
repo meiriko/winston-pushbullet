@@ -19,12 +19,12 @@ A [Winston](https://github.com/flatiron/winston) transport that outputs data usi
 
 ```
 
-Options can include the following. APIKEY, a is required.
+Options can include the following. apikey is required.
 
 * __apikey:__ apikey for the Pushbullet account that will recieve the notification.
 * __level:__ Level of warning required for a notification to be sent off. Defaults to warn.
-* __title__ Title of the notification. Defaults to Winston Notification.
-* __devices__ Devices to send the notifications too. As per the `node-pushbullet-api` module both device IDENs and device IDs can be used.  If the `deviceIden` parameter is passed as a number it is treated as a device ID. It defaults to '' which means the notification will be sent to all devices on the account.
+* __title__ Title of the notification. Defaults to 'Winston Notification'.
+* __devices__ Devices to send the notifications too. As per the `node-pushbullet-api` module both device IDENs and device IDs can be used.  If the `deviceIden` parameter is passed as a number it is treated as a device ID. It defaults to `''` which means the notification will be sent to all devices on the account.
 
 ## Dependencies
 
