@@ -1,6 +1,6 @@
 # winston-pushbullet
 
-A [Winston](https://github.com/flatiron/winston) transport that outputs dta using [Pushbullet](https://www.pushbullet.com/).
+A [Winston](https://github.com/flatiron/winston) transport that outputs data using [Pushbullet](https://www.pushbullet.com/).
 
 ## Usage
 
@@ -29,7 +29,9 @@ Options can include the following. APIKEY, a is required.
 ## Dependencies
 
 [Winston](https://github.com/flatiron/winston)
+
 [Pushbullet](https://github.com/alexwhitman/node-pushbullet-api/)
+
 [Async](https://github.com/caolan/async)
 
 #### Author: Callum Loh
