@@ -4,3 +4,4 @@ logs
 
 npm-debug
 node_modules
+*.sw*
